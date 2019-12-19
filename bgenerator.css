@@ -1,0 +1,77 @@
+body {
+	  font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    letter-spacing: .5em;
+    top: 15%;
+	  background: linear-gradient(to right, #845EC2 , #D65DB1); /* Standard syntax */
+}
+
+h1 {
+    margin-top: 100px;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+h2{
+  margin-top: 50px;
+}
+
+h3 {
+	  font-family: 'Montserrat', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+
+hr.thin {
+height: 1px;
+border: 0;
+color: #333;
+background-color: #333;
+width: 80%;
+margin-top: 100px;
+}
+
+.wrapper{
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.suggestions{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
+.color{
+    width: 25%;
+    height: 115px;
+    border-radius: 7px;
+    margin: 5px;
+    -webkit-box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+.color:nth-child(1){background: linear-gradient(to right, #fc354c, #0abfbc);}
+.color:nth-child(2){background: linear-gradient(to right, #ffa17f, #00223e);}
+.color:nth-child(3){background: linear-gradient(to right, #5f2c82, #49a09d);}
+.color:nth-child(4){background: linear-gradient(to right, #283048, #859398);}
+.color:nth-child(5){background: linear-gradient(to right, #1f1c2c, #928dab);}
+.color:nth-child(6){background: linear-gradient(to right, #dd5e89, #f7bb97);}
+.color:nth-child(7){background: linear-gradient(to right, #ff512f, #f09819);}
+.color:nth-child(8){background: linear-gradient(to right, rgb(233, 56, 215), rgb(88, 218, 117));}
